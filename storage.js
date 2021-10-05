@@ -25,3 +25,20 @@ function addObjectToIndexedDB(obj, liked, favorited){
         }
     }
 }
+function addObjectToAPI(url = "http://localhost:3000/catProfiles", obj, liked, favorited){
+    let data = new URLSearchParams({
+        'profile': JSON.stringify(obj),
+        'liked': liked,
+        'favorited': favorited
+    });
+    fetch(url, {
+        method: "POST", 
+        body: data
+      });
+}
+async function getObjectsFromAPI(url = "http://localhost:3000/catProfiles"){
+    let data = await fetch(url)
+    .then(res => res.json())
+
+    return data;
+}

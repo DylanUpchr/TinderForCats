@@ -1,10 +1,12 @@
 function addFavorite(){
     let profile = JSON.parse(localStorage.getItem("currentProfile"));
     addObjectToIndexedDB(profile, false, true);
+    addObjectToAPI("http://localhost:3000/catProfiles", profile, false, true);
 }
 function addLike(){
     let profile = JSON.parse(localStorage.getItem("currentProfile"));
     addObjectToIndexedDB(profile, true, false);
+    addObjectToAPI("http://localhost:3000/catProfiles", profile, true, false);
 }
 async function generateProfile(){
     //Async profile

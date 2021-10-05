@@ -1,3 +1,64 @@
 {
-    "catProfiles": [{ "id": 1, "title": "json-server", "author": "typicode" }]
+  "catProfiles": [
+    {
+      "profile": "{\"name\":\"JUANCHITO\",\"age\":16,\"distance\":33,\"text\":\"York Chocolate cats are known to be true lap cats with a sweet temperament. They love to be cuddled and petted. Their curious nature makes them follow you all the time and participate in almost everything you do, even if it's related to water: unlike many other cats, York Chocolates love it.\",\"img\":\"https://cdn2.thecatapi.com/images/LzVDEMYIv.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 1
+    },
+    {
+      "profile": "{\"name\":\"ESMERALDA\",\"age\":7,\"distance\":42,\"text\":\"They are known for their size and luxurious long coat Maine Coons are considered a gentle giant. The good-natured and affable Maine Coon adapts well to many lifestyles and personalities. She likes being with people and has the habit of following them around, but isn’t needy. Most Maine Coons love water and they can be quite good swimmers.\",\"img\":\"https://cdn2.thecatapi.com/images/OOD3VXAQn.jpg\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 2
+    },
+    {
+      "profile": "{\"name\":\"EVITA\",\"age\":7,\"distance\":38,\"text\":\"The Norwegian Forest Cat is a sweet, loving cat. She appreciates praise and loves to interact with her parent. She makes a loving companion and bonds with her parents once she accepts them for her own. She is still a hunter at heart. She loves to chase toys as if they are real. She is territorial and patrols several times each day to make certain that all is fine.\",\"img\":\"https://cdn2.thecatapi.com/images/L_H7aef7m.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 3
+    },
+    {
+      "profile": "{\"name\":\"MADELINE\",\"age\":18,\"distance\":48,\"text\":\"Savannah is the feline version of a dog. Actively seeking social interaction, they are given to pouting if left out. Remaining kitten-like through life. Profoundly loyal to immediate family members whilst questioning the presence of strangers. Making excellent companions that are loyal, intelligent and eager to be involved.\",\"img\":\"https://cdn2.thecatapi.com/images/qf6MhNS8z.jpg\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 4
+    },
+    {
+      "profile": "{\"name\":\"CHUIYA\",\"age\":7,\"distance\":10,\"text\":\"The Burmilla is a fairly placid cat. She tends to be an easy cat to get along with, requiring minimal care. The Burmilla is affectionate and sweet and makes a good companion, the Burmilla is an ideal companion to while away a lonely evening. Loyal, devoted, and affectionate, this cat will stay by its owner, always keeping them company.\",\"img\":\"https://cdn2.thecatapi.com/images/r530zDuJU.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 5
+    },
+    {
+      "profile": "{\"name\":\"RHIJHIK\",\"age\":4,\"distance\":27,\"text\":\"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.\",\"img\":\"https://cdn2.thecatapi.com/images/TGuAku7fM.jpg\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 6
+    },
+    {
+      "profile": "{\"name\":\"PAGET\",\"age\":13,\"distance\":25,\"text\":\"The Korat is a natural breed, and one of the oldest stable cat breeds. They are highly intelligent and confident cats that can be fearless, although they are startled by loud sounds and sudden movements. Korats form strong bonds with their people and like to cuddle and stay nearby.\",\"img\":\"https://cdn2.thecatapi.com/images/xPuWATvp9.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 7
+    },
+    {
+      "profile": "{\"name\":\"CHEMITA\",\"age\":15,\"distance\":20,\"text\":\"The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.\",\"img\":\"https://cdn2.thecatapi.com/images/u3V0SSE-F.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 8
+    },
+    {
+      "profile": "{\"name\":\"AZRAEL\",\"age\":15,\"distance\":10,\"text\":\"The Nebelung may have a reserved nature, but she loves to play (being especially fond of retrieving) and enjoys jumping or climbing to high places where she can study people and situations at her leisure before making up her mind about whether she wants to get involved.\",\"img\":\"https://cdn2.thecatapi.com/images/FotU1pOJT.jpg\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 9
+    },
+    {
+      "profile": "{\"name\":\"SARI\",\"age\":10,\"distance\":45,\"text\":\"The Toyger has a sweet, calm personality and is generally friendly. He's outgoing enough to walk on a leash, energetic enough to play fetch and other interactive games, and confident enough to get along with other cats and friendly dogs.\",\"img\":\"https://cdn2.thecatapi.com/images/_rnhm7vpT.jpg\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 10
+    }
+  ]
 }
