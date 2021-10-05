@@ -61,9 +61,9 @@ function loadProfiles(contentDivName, arrayKey){
 
         profilesQuery.onsuccess = function(){
             if (arrayKey == "likes") {
-                profiles = profilesQuery.result.filter((profile) => { return (profile.liked ? profile : null)});
+                profiles = profilesQuery.result.filter((profile) => (profile.liked ? profile : null));
             } else if (arrayKey == "favorites"){
-                profiles = profilesQuery.result.filter((profile) => { return (profile.favorited ? profile : null)});
+                profiles = profilesQuery.result.filter((profile) => (profile.favorited ? profile : null));
             }
 
             let contentDiv = document.getElementById(contentDivName);
