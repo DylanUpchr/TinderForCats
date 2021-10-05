@@ -1,14 +1,12 @@
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
 // Open (or create) the database
-var open = indexedDB.open("TinderForCatsDB", 1);
+let open = indexedDB.open("TinderForCatsDB", 1);
 
 // Create the schema
 open.onupgradeneeded = function() {
-    var db = open.result;
-    var profileStore = db.createObjectStore("ProfileStore", {keyPath: ["profile.name", "profile.age"]});
-    var index = profileStore.createIndex("LikedFavoritedIndex", ["liked", "favorited"], {unique: false});
-    var index = profileStore.createIndex("LikedIndex", "liked", {unique: false});
+    let db = open.result;
+    db.createObjectStore("ProfileStore", {keyPath: ["profile.name", "profile.age"]});
 };
 function addObjectToLocalStorageArray(arrayKey, obj){
     let array = JSON.parse(localStorage.getItem(arrayKey));

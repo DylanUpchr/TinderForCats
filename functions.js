@@ -1,13 +1,4 @@
 function init(){
-    //Initialize localstorage with empty arrays if keys dont exist
-    /*let emptyArray = [];
-    if(localStorage.getItem("favorites") == "" || localStorage.getItem("favorites") == null){
-        localStorage.setItem("favorites", JSON.stringify(emptyArray));
-    }
-    if(localStorage.getItem("likes") == "" || localStorage.getItem("likes") == null){
-        localStorage.setItem("likes", JSON.stringify(emptyArray));
-    }*/
-
     //Add click listeners to buttons
     let tabButtons = document.getElementsByClassName("tabButton");
     for(let button of tabButtons){
@@ -38,10 +29,10 @@ function loadTabContent(tabName){
         case "homeTab":
             break;
         case "favoritesTab":
-            loadProfilesIndexedDB("favoritesContent", "favorites");
+            loadProfiles("favoritesContent", "favorites");
             break;
         case "likedTab":
-            loadProfilesIndexedDB("likedContent", "likes");
+            loadProfiles("likedContent", "likes");
             break;
         default:
             break;

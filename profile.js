@@ -1,6 +1,5 @@
 function addFavorite(){
     let profile = JSON.parse(localStorage.getItem("currentProfile"));
-    //addObjectToLocalStorageArray("favorites", profile);
     addObjectToIndexedDB(profile, false, true);
 }
 function addLike(){
@@ -49,16 +48,6 @@ function loadProfile(contentDivName){
 }
 function loadProfiles(contentDivName, arrayKey){
 
-    let profiles = JSON.parse(localStorage.getItem(arrayKey));
-    let contentDiv = document.getElementById(contentDivName);
-    contentDiv.innerHTML = "";
-    let content = generateMultipleProfilePage(profiles);
-    //Put content div into existing container to show the profile
-    contentDiv.appendChild(content);
-    
-}
-function loadProfilesIndexedDB(contentDivName, arrayKey){
-
     //let profiles = JSON.parse(localStorage.getItem(arrayKey));
     
     let open = indexedDB.open("TinderForCatsDB", 1);
@@ -84,45 +73,23 @@ function loadProfilesIndexedDB(contentDivName, arrayKey){
             contentDiv.appendChild(content);
         }
 
-
         tx.oncomplete = function() {
             db.close();
         };
     }
-
-    /**/
-    
 }
 function generateSingleProfilePage(profile){
-        //Build profile element from data
-        //Build profile div
 
         //Create html elements
         let content = document.createElement("div");
-        let img = document.createElement("img");
-        let catInfo = document.createElement("p");
-        let catInfoIcon = document.createElement("i");
-        let distanceInfo = document.createElement("p");
-        let distanceInfoMarkerIcon = document.createElement("i");
         let profileFlavorText = document.createElement("p");
 
-        //Fill elements with data from profile object
-        img.setAttribute("src", profile.img);
-        catInfoIcon.classList.add("fas");
-        catInfoIcon.classList.add("fa-cat");
-        catInfo.appendChild(catInfoIcon);
-        catInfo.append(" " + profile.name + ", " + profile.age + " years old");
-        distanceInfoMarkerIcon.classList.add("fas");
-        distanceInfoMarkerIcon.classList.add("fa-map-marker-alt");
-        distanceInfo.appendChild(distanceInfoMarkerIcon);
-        distanceInfo.append(" " + profile.distance + " km away");
+
+        generateCommonProfileContent(content, profile);
         profileFlavorText.innerText = profile.text;
 
         //Build content div element with other elements
         content.classList.add("profile");
-        content.appendChild(img);
-        content.appendChild(catInfo);
-        content.appendChild(distanceInfo);
         content.appendChild(document.createElement("hr"));
         content.appendChild(profileFlavorText);
 
@@ -141,6 +108,13 @@ function generateMultipleProfilePage(profiles){
 }
 function generateProfileCard(profile){
     let profileCard = document.createElement("div");
+    profileCard.classList.add("card");
+    
+    generateCommonProfileContent(profileCard, profile);
+
+    return profileCard;
+}
+function generateCommonProfileContent(contentDiv, profile){
     let infoDiv = document.createElement("div");
     let img = document.createElement("img");
     let distanceInfo = document.createElement("p");
@@ -148,8 +122,6 @@ function generateProfileCard(profile){
     let catInfo = document.createElement("p");
     let catInfoIcon = document.createElement("i");
 
-    
-    profileCard.classList.add("card");
     img.setAttribute("src", profile.img);
     distanceInfoMarkerIcon.classList.add("fas");
     distanceInfoMarkerIcon.classList.add("fa-map-marker-alt");
@@ -162,10 +134,6 @@ function generateProfileCard(profile){
     infoDiv.appendChild(catInfo);
     infoDiv.appendChild(distanceInfo);
 
-    
-    profileCard.appendChild(img);
-    profileCard.appendChild(infoDiv);
-    
-
-    return profileCard;
+    contentDiv.appendChild(img);
+    contentDiv.appendChild(infoDiv);
 }
