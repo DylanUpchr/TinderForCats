@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tinder for Cats</title>
+        <script defer src="./fontawesome-free-5.15.4-web/js/all.min.js"></script>
+        <script src="./functions.js"></script>
+        <script src="./profile.js"></script>
+        <script src="./storage.js"></script>
+        <script src="./swipe.js"></script>
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="contentContainer">
+                <div class="tab currentTab" id="homeTab">
+                    <div class="titleBar">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </div>
+                    <div class="content" id="homeContent"></div>
+                </div>
+                <div class="tab" id="favoritesTab">
+                    <div class="titleBar">
+                        <i class="fas fa-star"></i>
+                        Favorites
+                    </div>
+                    <div class="content" id="favoritesContent"></div>
+                </div>
+                <div class="tab" id="likedTab">
+                    <div class="titleBar">
+                        <i class="fas fa-thumbs-up"></i>
+                        Liked
+                    </div>
+                    <div class="content" id="likedContent"></div>
+                </div>
+            </div>
+            <nav id="bottomTabBar">
+                <button class="tabButton" value="homeTab">Home</button>
+                <button class="tabButton" value="favoritesTab">Favorites</button>
+                <button class="tabButton" value="likedTab">Liked</button>
+            </nav>
+        </div>
+    </body>
+    <script>
+        init();
+    </script>
+</html>
