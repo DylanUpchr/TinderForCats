@@ -59,6 +59,36 @@
       "liked": "false",
       "favorited": "true",
       "id": 10
+    },
+    {
+      "profile": "{\"age\":6,\"distance\":35,\"text\":\"Loving, loyal, social and inquisitive, the Cyprus cat forms strong ties with their families and love nothing more than to be involved in everything that goes on in their surroundings. They are not overly active by nature which makes them the perfect companion for people who would like to share their homes with a laid-back relaxed feline companion. \",\"img\":\"https://cdn2.thecatapi.com/images/cruhNBsv1.jpg\",\"name\":\"CROQUE\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 11
+    },
+    {
+      "profile": "{\"age\":4,\"distance\":33,\"text\":\"This is a smart and intelligent cat which bonds well with humans. With its affectionate and playful personality the Angora is a top choice for families. The Angora gets along great with other pets in the home, but it will make clear who is in charge, and who the house belongs to\",\"img\":\"https://cdn2.thecatapi.com/images/GIpj4xxPA.jpg\",\"name\":\"ELAINE\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 12
+    },
+    {
+      "profile": "{\"age\":14,\"distance\":40,\"text\":\"The Munchkin is an outgoing cat who enjoys being handled. She has lots of energy and is faster and more agile than she looks. The shortness of their legs does not seem to interfere with their running and leaping abilities.\",\"img\":\"https://cdn2.thecatapi.com/images/vXiNSY60T.jpg\",\"name\":\"ROXANNE\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 13
+    },
+    {
+      "profile": "{\"age\":12,\"distance\":45,\"text\":\"The favourite perch of the Devon Rex is right at head level, on the shoulder of her favorite person. She takes a lively interest in everything that is going on and refuses to be left out of any activity. Count on her to stay as close to you as possible, occasionally communicating his opinions in a quiet voice. She loves people and welcomes the attentions of friends and family alike.\",\"img\":\"https://cdn2.thecatapi.com/images/lJHXU7DlQ.jpg\",\"name\":\"BOB\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 14
+    },
+    {
+      "profile": "{\"age\":4,\"distance\":46,\"text\":\"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.\",\"img\":\"https://cdn2.thecatapi.com/images/gCEFbK7in.jpg\",\"name\":\"MR BOO BOO\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 15
     }
   ]
 }
