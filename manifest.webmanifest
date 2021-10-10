@@ -1,0 +1,15 @@
+{
+    "background_color": "black",
+    "description": "Tinder but for cats",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "img/icon.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      }
+    ],
+    "name": "TinderForCats",
+    "short_name": "Kot",
+    "start_url": "/index.html"
+  }
