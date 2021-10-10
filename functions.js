@@ -1,5 +1,14 @@
+/**
+ * Author:      Dylan Upchurch
+ * Date:        2021-10-10
+ * Description: General functions used by TinderForCats
+ */
+/**
+ * Initializes application by setting tab button event listeners, Swipe event listeners 
+ * and loading the initial profile into the homeContent div.
+ */
 function init(){
-    //Add click listeners to buttons
+    //Add click listeners to tab buttons
     let tabButtons = document.getElementsByClassName("tabButton");
     for(let button of tabButtons){
         button.addEventListener("click", function(e){showTab(e.target.value); });
@@ -12,6 +21,11 @@ function init(){
     loadProfile("homeContent");
 }
 
+/**
+ * Display tab depending on button pressed, 
+ * uses currentTab class to set diplay: flex, otherwise tab class display is set to none.
+ * @param {string} tabName Name of tab from pressed button's value field.
+ */
 function showTab(tabName){
     //Hide all tabs
     let tabs = document.getElementsByClassName("tab");
@@ -24,23 +38,32 @@ function showTab(tabName){
     tab.classList.add("currentTab");
     loadTabContent(tabName);
 }
+/**
+ * Load content for favorites and likes tabs when called by showTab.
+ * Calls loadProfiles in profile.js to generate and inject HTML into the specified div.
+ * @param {string} tabName Name of tab being loaded.
+ */
 function loadTabContent(tabName){
     switch (tabName) {
-        case "homeTab":
-            break;
         case "favoritesTab":
-            loadProfiles("favoritesContent", "favorites");
+            loadProfiles("favoritesContent", "favorited");
             break;
         case "likedTab":
-            loadProfiles("likedContent", "likes");
+            loadProfiles("likedContent", "liked");
             break;
         default:
             break;
     }
 }
+/**
+ * Random number generator from minimum upto but not including maximum.
+ * @param {int} min Exclusive maximum.
+ * @param {int} max Inclusive minimum.
+ * @returns 
+ */
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+    return Math.floor(Math.random() * (max - min) + min);
   }
    

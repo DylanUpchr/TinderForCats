@@ -1,3 +1,8 @@
+/**
+ * Author:      Dylan Upchurch
+ * Date:        2021-10-10
+ * Description: Swipe class, contains logic for detecting swipe events applied to HTML elements.
+ */
 class Swipe {
     constructor(element) {
         this.xDown = null;
