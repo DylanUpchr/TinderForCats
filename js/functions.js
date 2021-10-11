@@ -19,6 +19,19 @@ function init(){
     (new Swipe('#homeContent')).onRight(function() { addLike(); loadProfile("homeContent"); }).run();
     //Load first profile into home
     loadProfile("homeContent");
+
+    //Register DB sync service worker
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('js/sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
 }
 
 /**
