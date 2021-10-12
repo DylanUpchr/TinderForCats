@@ -89,6 +89,18 @@
       "liked": "false",
       "favorited": "true",
       "id": 15
+    },
+    {
+      "profile": "{\"age\":10,\"distance\":18,\"text\":\"The Siberians dog like temperament and affection makes the ideal lap cat and will live quite happily indoors. Very agile and powerful, the Siberian cat can easily leap and reach high places, including the tops of refrigerators and even doors. \",\"img\":\"https://cdn2.thecatapi.com/images/--ovPy5Lb.jpg\",\"name\":\"MEREDITH\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 16
+    },
+    {
+      "profile": "{\"age\":10,\"distance\":1,\"text\":\"Orientals are passionate about the people in their lives. They become extremely attached to their humans, so be prepared for a lifetime commitment. When you are not available to entertain her, an Oriental will divert herself by jumping on top of the refrigerator, opening drawers, seeking out new hideaways.\",\"img\":\"https://cdn2.thecatapi.com/images/NTsRW30uC.jpg\",\"name\":\"BUGS\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 17
     }
   ]
 }
