@@ -101,6 +101,60 @@
       "liked": "true",
       "favorited": "false",
       "id": 17
+    },
+    {
+      "profile": "{\"age\":16,\"distance\":1,\"text\":\"The British Longhair is a very laid-back relaxed cat, often perceived to be very independent although they will enjoy the company of an equally relaxed and likeminded cat. They are an affectionate breed, but very much on their own terms and tend to prefer to choose to come and sit with their owners rather than being picked up.\",\"img\":\"https://cdn2.thecatapi.com/images/i-j1kCi3b.jpg\",\"name\":\"BAGEL\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 18
+    },
+    {
+      "profile": "{\"age\":7,\"distance\":17,\"text\":\"The Somali lives life to the fullest. He climbs higher, jumps farther, plays harder. Nothing escapes the notice of this highly intelligent and inquisitive cat. Somalis love the company of humans and other animals.\",\"img\":\"https://cdn2.thecatapi.com/images/ayEJiATFy.jpg\",\"name\":\"MS MINNIE\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 19
+    },
+    {
+      "profile": "{\"age\":3,\"distance\":30,\"text\":\"The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.\",\"img\":\"https://cdn2.thecatapi.com/images/2N4PhyqTG.jpg\",\"name\":\"AMBER\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 20
+    },
+    {
+      "profile": "{\"age\":4,\"distance\":27,\"text\":\"Arabian Mau cats are social and energetic. Due to their energy levels, these cats do best in homes where their owners will be able to provide them with plenty of playtime, attention and interaction from their owners. These kitties are friendly, intelligent, and adaptable, and will even get along well with other pets and children.\",\"img\":\"https://cdn2.thecatapi.com/images/zlpgGWqN7.jpg\",\"name\":\"PENELOPE\"}",
+      "liked": "false",
+      "favorited": "true",
+      "id": 21
+    },
+    {
+      "profile": "{\"age\":13,\"distance\":11,\"text\":\"The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.\",\"img\":\"https://cdn2.thecatapi.com/images/s_SbQ3Xju.jpg\",\"name\":\"JANE\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 22
+    },
+    {
+      "profile": "{\"age\":7,\"distance\":34,\"text\":\"The Ragamuffin is calm, even tempered and gets along well with all family members. Changes in routine generally do not upset her. She is an ideal companion for those in apartments, and with children due to her patient nature.\",\"img\":\"https://cdn2.thecatapi.com/images/GcZbVDVi8.jpg\",\"name\":\"MARSHMALLOW\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 23
+    },
+    {
+      "profile": "{\"age\":17,\"distance\":31,\"text\":\"The Bambino is a breed of cat that was created as a cross between the Sphynx and the Munchkin breeds. The Bambino cat has short legs, large upright ears, and is usually hairless. They love to be handled and cuddled up on the laps of their family members.\",\"img\":\"https://cdn2.thecatapi.com/images/Oaoo1ky3A.jpg\",\"name\":\"PEAK\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 24
+    },
+    {
+      "profile": "{\"age\":4,\"distance\":39,\"text\":\"The Ragamuffin is calm, even tempered and gets along well with all family members. Changes in routine generally do not upset her. She is an ideal companion for those in apartments, and with children due to her patient nature.\",\"img\":\"https://cdn2.thecatapi.com/images/THXQ9Nqie.jpg\",\"name\":\"DELROY\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 25
+    },
+    {
+      "profile": "{\"age\":11,\"distance\":32,\"text\":\"The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.\",\"img\":\"https://cdn2.thecatapi.com/images/7Q76qhEAF.jpg\",\"name\":\"SUGAR\"}",
+      "liked": "true",
+      "favorited": "false",
+      "id": 26
     }
   ]
 }

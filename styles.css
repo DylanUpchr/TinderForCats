@@ -55,7 +55,9 @@ html, body{
 }
 .card{
     margin: 20px;
+    display: flex;
     height: 100px;
+    flex-direction: row;
     box-shadow: 5px 3px 3px gray;
 }
 .card img{
@@ -63,6 +65,6 @@ html, body{
     display: inline-block;
 }
 .card div{
-    display: inline-block;
     margin-left: 20px;
+    display: inline-block;
 }
