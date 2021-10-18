@@ -21,7 +21,40 @@
     <body>
         <div id="mainContainer">
             <div id="contentContainer">
-                <div class="tab currentTab" id="homeTab">
+                <div class="tab currentTab" id="tutorialTab">
+                    <div class="titleBar">
+                        <h4>
+                            <i class="fas fa-question-circle"></i>
+                            Tutorial
+                        </h4>
+                    </div>
+                    <div class="content" id="tutorialContent">
+                        <div class="tip">
+                            <p>This is a simple tutorial on how to use the app</p>
+                            <p>Press the X in the top left corner to close this tutorial</p>
+                        </div>
+                        <div>
+                            <span class="tip" id="swipeUpTip"><i class="fas fa-arrow-up"></i> Swipe up to favorite</span><br>
+                            <span class="tip" id="swipeLeftTip"><i class="fas fa-arrow-left"></i>Swipe left to reject</span>
+                            <span class="tip" id="swipeRightTip"><i class="fas fa-arrow-right"></i>Swipe right to like</span>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><p>Favorites tab</p></td>
+                                    <td><p>Home tab</p></td>
+                                    <td><p>Likes tab</p></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="tip" id="favoritesTabTip"><i class="fas fa-arrow-down"></i></span></td>
+                                    <td><span class="tip" id="homeTabTip"><i class="fas fa-arrow-down"></i></span></td>
+                                    <td><span class="tip" id="likedTabTip"><i class="fas fa-arrow-down"></i></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab" id="homeTab">
                     <div class="titleBar">
                         <h4>
                             <i class="fas fa-home"></i>
@@ -51,13 +84,11 @@
             </div>
             <!--Tab navigation bar-->
             <nav id="bottomTabBar">
-                <button class="tabButton" value="favoritesTab"><i class="fas fa-heart"></i></button>
+                <button class="tabButton" value="favoritesTab"><i class="fas fa-star"></i></button>
                 <button class="tabButton" value="homeTab"><i class="fas fa-home"></i></button>
                 <button class="tabButton" value="likedTab"><i class="fas fa-thumbs-up"></i></button>
             </nav>
         </div>
+        <script>init();</script>
     </body>
-    <script>
-        init();
-    </script>
 </html>

@@ -41,6 +41,25 @@ html, body{
 }
 .currentTab{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tutorialContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#tutorialContent table{
+    width: 100%;
+    /*position: absolute;
+    bottom: 0px;*/
+}
+#tutorialContent table td{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 33%;
 }
 .titleBar{
     text-align: center;
