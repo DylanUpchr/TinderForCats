@@ -33,19 +33,3 @@ self.addEventListener('fetch', function(event) {
     )
   );
 });
-/*self.addEventListener('activate', function(event) {
-
-  var cacheAllowlist = ['pages-cache-v1', 'blog-posts-cache-v1'];
-
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.map(function(cacheName) {
-          if (cacheAllowlist.indexOf(cacheName) === -1) {
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
-  );
-});*/

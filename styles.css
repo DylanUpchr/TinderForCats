@@ -22,15 +22,16 @@ html, body{
 }
 #bottomTabBar button{
     width: 25%;
-    margin: 5px;
+}
+.tabButton{
     border: none;
     background-color: transparent;
-    z-index: 9;
 }
 #bottomTabBar button svg{
     width: 2.5em;
     height: 2.5em;
-    z-index: 8;
+}
+svg{
     pointer-events:none;
 }
 .tab{
@@ -61,8 +62,8 @@ html, body{
     text-align: center;
     width: 33%;
 }
-#closeTutorial{
-    float: right;
+.tutorialButton{
+    float: left;
 }
 .titleBar{
     text-align: center;
