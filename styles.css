@@ -61,6 +61,9 @@ html, body{
     text-align: center;
     width: 33%;
 }
+#closeTutorial{
+    float: right;
+}
 .titleBar{
     text-align: center;
     width: 100%;
